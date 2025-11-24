@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           https://eu-shop-runesofmagic.gameforge.com/
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document url-prefix("https://eu-shop-runesofmagic.gameforge.com/") {
+	#page {
+		background: #000;
+	}
+	body.ingame #page {
+		height: 100%;
+		width: 100%;
+	}
+	body.ingame #accountContent .scrollable_container,
+	body.ingame #page #landing,
+	body.ingame .content {
+		height: 100%;
+	}
+	.item-sample,
+	#prmo-area {
+		max-width: 1016px;
+	}
+	.card .last-in-line {
+		margin-right: 20px;
+	}
+	.depot-item[data-sort-name="Kleines Pflanzenwachstumsmittel"]
+	{
+		display: none !important;
+	}
+}
