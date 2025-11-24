@@ -2,7 +2,7 @@
 // @name         RoM - Better Depot
 // @namespace    http://tampermonkey.net/
 // @version      3
-// @description
+// @description  ItemShop - Besseres Depo
 // @author       You
 // @match        https://eu-shop-runesofmagic.gameforge.com/depotitems*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gameforge.com
@@ -132,3 +132,4 @@
     }
     depotpage();
 })();
+
